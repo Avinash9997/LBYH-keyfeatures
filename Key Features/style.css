@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Lalezar&family=Merriweather:wght@300;700;900&display=swap");
+
+body {
+  font-family: "Lalezar", system-ui;
+  font-family: "Merriweather", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background: url("images/background.png") center/cover no-repeat; /* Background Doodle img */
+  color: #008080;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  /* height: 100vh; */
+  height: auto;
+}
+
+.feature-head {
+  /* Headline */
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #008080;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.wrapper {
+  /* Tiles of circle, icon, Decriptions */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+  width: 280px;
+  margin-bottom: 20px;
+}
+
+.icon {
+  /* Icons for shortcuts */
+  height: 10rem;
+  width: 10rem;
+  background-color: #fff8e3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_1 {
+  height: 10rem;
+  width: 10rem;
+  background-color: #daffef;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_2 {
+  height: 10rem;
+  width: 10rem;
+  background-color: #fae7f3;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icon_3 {
+  height: 10rem;
+  width: 10rem;
+  background-color: #ebf3e8;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div h3 {
+  /* Decription Headline */
+  text-decoration: underline;
+}
+.img-text {
+  /* For the Decription */
+  border: 3px solid #008080;
+  background-color: #fff3e3;
+  padding: 8px;
+  border-radius: 10px;
+  height: 10rem;
+  margin-right: 15px;
+}
+
+.img-text_1 {
+  border: 3px solid #008080;
+  background-color: #e4faff;
+  padding: 8px;
+  border-radius: 10px;
+  height: 10rem;
+  margin-right: 15px;
+}
+
+.img-text_2 {
+  border: 3px solid #008080;
+  background-color: #ffeeee;
+  padding: 8px;
+  border-radius: 10px;
+  height: 10rem;
+  margin-right: 15px;
+}
+
+.img-text_3 {
+  border: 3px solid #008080;
+  background-color: #ece7ff;
+  padding: 8px;
+  border-radius: 10px;
+  height: 10rem;
+  margin-right: 15px;
+}
+
+/* Media query for make web responsive */
+
+@media screen and (max-width: 768px) {
+  .main {
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}

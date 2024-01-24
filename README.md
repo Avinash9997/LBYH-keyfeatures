@@ -59,7 +59,7 @@ Feel free to customize and enhance this template based on your project requireme
 ## Author
 
 - **Avinash Ghanghav**
-- GitHub: [github.com/your-username](https://github.com/your-username)
+- GitHub: [github.com/your-username](https://github.com/Avinash9997)
 
 ## Acknowledgments
 
